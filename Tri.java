@@ -1,10 +1,11 @@
-
 public class Triangle
-{
-	public static String determineTriangleV1 (int a, int b, int c)
+{private int cat;
+	public static String determineTriangleV1 (int d, int b, int c)
 	{
+		
 		if ((a <= 0) || (b <= 0) || (c <= 0))
 		{
+			return " triangle";
 			return "Not a triangle";
 		}
 		else
